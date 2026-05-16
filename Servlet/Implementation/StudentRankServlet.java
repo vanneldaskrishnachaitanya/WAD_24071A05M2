@@ -73,6 +73,9 @@ public class StudentRankServlet extends HttpServlet {
             out.println("</div>");
             out.println("<button onclick='window.location.href=\"index.html\"'>Back to Form</button>");
             out.println("</div>");
+            out.println("<footer style=\"text-align:center; margin-top:20px; font-size:0.9em; color:#555;\">");
+            out.println("24071A05M2 copyrights reserverd");
+            out.println("</footer>");
             out.println("</body>");
             out.println("</html>");
             
