@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, Navigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import Footer from '../components/Footer';
 import './Login.css';
 
 export default function Login() {
@@ -80,15 +81,12 @@ export default function Login() {
             </button>
 
             <div className="login-hint">
-              <strong>Demo:</strong> Any email + password (4+ chars)
-            </div>
-
-            <div className="login-hint">
               New here? <Link to="/register">Create an account</Link>
             </div>
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

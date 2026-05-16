@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import Footer from '../components/Footer';
 import './Login.css';
 
 export default function Register() {
@@ -112,6 +113,7 @@ export default function Register() {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
